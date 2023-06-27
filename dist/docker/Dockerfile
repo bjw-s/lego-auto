@@ -14,7 +14,7 @@ WORKDIR /build
 COPY . .
 RUN go build -ldflags="-s -w" -o lego-auto /build
 
-FROM gcr.io/distroless/static:nonroot@sha256:ddde70b96543be368208791ad8ddc9b483cbb33a67bce861e73ad519bc0ed616
+FROM gcr.io/distroless/static:nonroot@sha256:9ecc53c269509f63c69a266168e4a687c7eb8c0cfd753bd8bfcaa4f58a90876f
 USER nonroot:nonroot
 COPY --from=build --chown=nonroot:nonroot /build/lego-auto /app/lego-auto
 COPY --from=build --chown=nonroot:nonroot /sbin/tini-static /sbin/tini
