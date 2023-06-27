@@ -4,6 +4,7 @@ package config
 import (
 	"github.com/bjw-s/lego-auto/pkg/helpers"
 	"github.com/gookit/validate"
+	"golang.org/x/exp/slices"
 )
 
 // ValidateFolder validates that the path is a valid folder
@@ -18,8 +19,15 @@ func (c *Config) Validate() validate.Errors {
 	return v.ValidateE()
 }
 
+// ValidateDirectory validates that the Directory is valid
+func (c Config) ValidateDirectory(val string) bool {
+	validDirectories := []string{"production", "staging"}
+	return slices.Contains(validDirectories, val)
+}
+
 func (c Config) Messages() map[string]string {
 	return validate.MS{
-		"ValidateFolder": "{field} must point to a valid folder.",
+		"ValidateFolder":    "{field} must point to a valid folder.",
+		"ValidateDirectory": "Directory must be one of: production, staging",
 	}
 }

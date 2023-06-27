@@ -24,6 +24,7 @@ type Config struct {
 	DNS         []string      `koanf:"dns"`
 	Email       string        `koanf:"email" validate:"required|email"`
 	Provider    string        `koanf:"provider" validate:"required"`
+	Directory   string        `koanf:"directory" validate:"ValidateDirectory"`
 	RenewBefore time.Duration `koanf:"renewbefore"`
 	Timeout     time.Duration `koanf:"timeout"`
 	k           *koanf.Koanf
@@ -48,6 +49,7 @@ func LoadConfig(flags *flag.FlagSet) (*Config, error) {
 	err = k.Load(confmap.Provider(map[string]interface{}{
 		"datadir":     cwd,
 		"cachedir":    fmt.Sprintf("%s/.cache", cwd),
+		"directory":   "production",
 		"dns":         []string{"8.8.8.8"},
 		"renewbefore": "720h",
 		"timeout":     "1m",

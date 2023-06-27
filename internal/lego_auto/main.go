@@ -104,6 +104,9 @@ func getOrCreateAccount() (*lego.Client, error) {
 	}
 
 	config := lego.NewConfig(user)
+	if AppConfig.Directory == "staging" {
+		config.CADirURL = lego.LEDirectoryStaging
+	}
 
 	client, err := lego.NewClient(config)
 	if err != nil {
