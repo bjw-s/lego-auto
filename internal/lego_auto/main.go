@@ -260,6 +260,7 @@ func exportCertsToDataDir(ctx context.Context, certs []*certificate.Resource) er
 	for _, res := range certs {
 		certFile := fmt.Sprintf("%s/cert.pem", AppConfig.DataDir)
 		keyFile := fmt.Sprintf("%s/privkey.pem", AppConfig.DataDir)
+		combinedFile := fmt.Sprintf("%s/combined.pem", AppConfig.DataDir)
 
 		log.Infof("Exporting certificate of %s to %s", res.Domain, certFile)
 		err := os.WriteFile(certFile, res.Certificate, 0644)
@@ -271,6 +272,16 @@ func exportCertsToDataDir(ctx context.Context, certs []*certificate.Resource) er
 		err = os.WriteFile(keyFile, res.PrivateKey, 0600)
 		if err != nil {
 			return fmt.Errorf("exporting private key failed failed %s: %w", res.Domain, err)
+		}
+
+		log.Infof("Exporting combined key+cert of %s to %s", res.Domain, combinedFile)
+		var combinedOutput []byte
+		combinedOutput = append(combinedOutput, res.PrivateKey...)
+		combinedOutput = append(combinedOutput, []byte("\n")...)
+		combinedOutput = append(combinedOutput, res.Certificate...)
+		err = os.WriteFile(combinedFile, combinedOutput, 0600)
+		if err != nil {
+			return fmt.Errorf("exporting combined file failed failed %s: %w", res.Domain, err)
 		}
 	}
 
