@@ -13,7 +13,7 @@ require (
 	github.com/knadh/koanf/v2 v2.0.1
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/exp v0.0.0-20230711005742-c3f37128e5a4
+	golang.org/x/exp v0.0.0-20230711023510-fffb14384f22
 )
 
 require (
