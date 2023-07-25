@@ -3,7 +3,7 @@ module github.com/bjw-s/lego-auto
 go 1.20
 
 require (
-	github.com/go-acme/lego/v4 v4.13.2
+	github.com/go-acme/lego/v4 v4.13.3
 	github.com/gookit/validate v1.4.6
 	github.com/knadh/koanf/parsers/yaml v0.1.0
 	github.com/knadh/koanf/providers/confmap v0.1.0
