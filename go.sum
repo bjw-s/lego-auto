@@ -201,6 +201,8 @@ github.com/go-acme/lego/v4 v4.13.3 h1:aZ1S9FXIkCWG3Uw/rZKSD+MOuO8ZB1t6p9VCg6jJiN
 github.com/go-acme/lego/v4 v4.13.3/go.mod h1:c/iodVGMeBXG/+KiQczoNkySo3YLWTVa0kiyeVd/FHc=
 github.com/go-acme/lego/v4 v4.14.0 h1:/skZoRHgVh0d2RK7l1g3Ch8HqeqP9LB8ZEjLdGEpcDE=
 github.com/go-acme/lego/v4 v4.14.0/go.mod h1:zjmvNCDLGz7GrC1OqdVpVmZFKSRabEDtWbdzmcpBsGo=
+github.com/go-acme/lego/v4 v4.14.2 h1:/D/jqRgLi8Cbk33sLGtu2pX2jEg3bGJWHyV8kFuUHGM=
+github.com/go-acme/lego/v4 v4.14.2/go.mod h1:kBXxbeTg0x9AgaOYjPSwIeJy3Y33zTz+tMD16O4MO6c=
 github.com/go-chi/chi/v5 v5.0.0/go.mod h1:BBug9lr0cqtdAhsu6R4AAdvufI0/XBzAQSsUqJpoZOs=
 github.com/go-cmd/cmd v1.0.5/go.mod h1:y8q8qlK5wQibcw63djSl/ntiHUHXHGdCkPk0j4QeW4s=
 github.com/go-errors/errors v1.0.1 h1:LUHzmkK3GUKUrL/1gfBUxAHzcev3apQlezX/+O7ma6w=
@@ -515,6 +517,8 @@ github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32/go.mod h1:9wM+0iRr9ahx58uY
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/nrdcg/auroradns v1.1.0 h1:KekGh8kmf2MNwqZVVYo/fw/ZONt8QMEmbMFOeljteWo=
 github.com/nrdcg/auroradns v1.1.0/go.mod h1:O7tViUZbAcnykVnrGkXzIJTHoQCHcgalgAe6X1mzHfk=
+github.com/nrdcg/bunny-go v0.0.0-20230728143221-c9dda82568d9 h1:qpB3wZR4+MPK92cTC9zZPnndkJgDgPvQqPUAgVc1NXU=
+github.com/nrdcg/bunny-go v0.0.0-20230728143221-c9dda82568d9/go.mod h1:HUoHXDrFvidN1NK9Wb/mZKNOfDNutKkzF2Pg71M9hHA=
 github.com/nrdcg/desec v0.6.0 h1:kZ9JtsYEW3LNfuPIM+2tXoxoQlF9koWfQTWTQsA7Sr8=
 github.com/nrdcg/desec v0.6.0/go.mod h1:wybWg5cRrNmtXLYpUCPCLvz4jfFNEGZQEnoUiX9WqcY=
 github.com/nrdcg/desec v0.7.0 h1:iuGhi4pstF3+vJWwt292Oqe2+AsSPKDynQna/eu1fDs=
@@ -559,6 +563,8 @@ github.com/ovh/go-ovh v1.1.0 h1:bHXZmw8nTgZin4Nv7JuaLs0KG5x54EQR7migYTd1zrk=
 github.com/ovh/go-ovh v1.1.0/go.mod h1:AxitLZ5HBRPyUd+Zl60Ajaag+rNTdVXWIkzfrVuTXWA=
 github.com/ovh/go-ovh v1.4.1 h1:VBGa5wMyQtTP7Zb+w97zRCh9sLtM/2YKRyy+MEJmWaM=
 github.com/ovh/go-ovh v1.4.1/go.mod h1:6bL6pPyUT7tBfI0pqOegJgRjgjuO+mOo+MyXd1EEC0M=
+github.com/ovh/go-ovh v1.4.2 h1:ub4jVK6ERbiBTo4y5wbLCjeKCjGY+K36e7BviW+MaAU=
+github.com/ovh/go-ovh v1.4.2/go.mod h1:AkPXVtgwB6xlKblMjRKJJmjRp+ogrE7fz2lVgcQY8SY=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/patrickmn/go-cache v2.1.0+incompatible h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=
 github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTKqZju1ZixQ/KpMGzzAfe6+WQ=
