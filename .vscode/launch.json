@@ -10,7 +10,7 @@
       "request": "launch",
       "mode": "auto",
       "program": "${workspaceFolder}/lego-auto.go",
-      "args": ["run"],
+      "args": ["run", "-c", "${workspaceFolder}/config.yaml"],
       "cwd": "${workspaceFolder}",
       "env": {
         "LA_CACHEDIR": "/tmp/output/.cache",

@@ -1,4 +1,4 @@
-// Package config implements all configuration aspects of KoboMail
+// Package config implements all configuration aspects of lego-auto
 package config
 
 import (

@@ -17,6 +17,7 @@ import (
 
 	"github.com/bjw-s/lego-auto/internal/config"
 	"github.com/bjw-s/lego-auto/pkg/helpers"
+	"github.com/go-acme/lego/v4/certcrypto"
 	"github.com/go-acme/lego/v4/certificate"
 	"github.com/go-acme/lego/v4/challenge/dns01"
 	"github.com/go-acme/lego/v4/lego"
@@ -107,6 +108,7 @@ func getOrCreateAccount() (*lego.Client, error) {
 	if AppConfig.Directory == "staging" {
 		config.CADirURL = lego.LEDirectoryStaging
 	}
+	config.Certificate.KeyType = certcrypto.RSA2048
 
 	client, err := lego.NewClient(config)
 	if err != nil {

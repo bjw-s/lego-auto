@@ -12,8 +12,8 @@ func init() {
 
 var runCmd = &cobra.Command{
 	Use:   "run",
-	Short: "Run KoboMail processing",
-	Long:  "Run KoboMail processing.",
+	Short: "Run lego-auto processing",
+	Long:  "Run lego-auto processing.",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		lego_auto.AppConfig = conf
 		lego_auto.Run()

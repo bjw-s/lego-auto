@@ -1,4 +1,4 @@
-// Package config implements all commands of KoboMail
+// Package config implements all commands of lego-auto
 package commands
 
 import (
@@ -13,7 +13,7 @@ var (
 	conf = &config.Config{}
 
 	rootCmd = &cobra.Command{
-		Use:   "kobomail",
+		Use:   "lego-auto",
 		Short: "lego-auto automates the process of generating LetsEncrypt certificates",
 		Long: `lego-auto automates the process of generating LetsEncrypt certificates.
 More information available at the Github Repo (https://github.com/bjw-s/lego-auto)`,
