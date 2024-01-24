@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/go-acme/lego/v4 v4.14.2
-	github.com/gookit/validate v1.5.1
+	github.com/gookit/validate v1.5.2
 	github.com/knadh/koanf/parsers/yaml v0.1.0
 	github.com/knadh/koanf/providers/confmap v0.1.0
 	github.com/knadh/koanf/providers/env v0.1.0
@@ -79,8 +79,8 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
-	github.com/gookit/filter v1.2.0 // indirect
-	github.com/gookit/goutil v0.6.12 // indirect
+	github.com/gookit/filter v1.2.1 // indirect
+	github.com/gookit/goutil v0.6.15 // indirect
 	github.com/gophercloud/gophercloud v1.0.0 // indirect
 	github.com/gophercloud/utils v0.0.0-20210216074907-f6de111f2eae // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
