@@ -34,7 +34,7 @@ type Config struct {
 func LoadConfig(flags *flag.FlagSet) (*Config, error) {
 	var err error
 
-	const envVarPrefx = "LA_"
+	const envVarPrefix = "LA_"
 
 	cwd, _ := os.Getwd()
 
@@ -68,11 +68,19 @@ func LoadConfig(flags *flag.FlagSet) (*Config, error) {
 	}
 
 	// Environment variables
-	err = k.Load(env.Provider(envVarPrefx, ".", func(s string) string {
-		s = strings.TrimPrefix(s, envVarPrefx)
+	err = k.Load(env.ProviderWithValue(envVarPrefix, ".", func(s string, v string) (string, interface{}) {
+		// Process and normalize the key
+		s = strings.TrimPrefix(s, envVarPrefix)
 		s = strings.ToLower(s)
 		s = strings.Replace(s, "__", ".", -1)
-		return s
+
+		// If there is a space in the value, split the value into a slice by the space.
+		if strings.Contains(v, " ") {
+			return s, strings.Split(v, " ")
+		}
+
+		// Otherwise, return the plain string.
+		return s, v
 	}), nil)
 	if err != nil {
 		return nil, err
