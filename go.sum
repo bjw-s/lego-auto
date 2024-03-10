@@ -224,6 +224,8 @@ github.com/go-acme/lego/v4 v4.14.2 h1:/D/jqRgLi8Cbk33sLGtu2pX2jEg3bGJWHyV8kFuUHG
 github.com/go-acme/lego/v4 v4.14.2/go.mod h1:kBXxbeTg0x9AgaOYjPSwIeJy3Y33zTz+tMD16O4MO6c=
 github.com/go-acme/lego/v4 v4.15.0 h1:A7MHEU3b+TDFqhC/HmzMJnzPbyeaYvMZQBbqgvbThhU=
 github.com/go-acme/lego/v4 v4.15.0/go.mod h1:eeGhjW4zWT7Ccqa3sY7ayEqFLCAICx+mXgkMHKIkLxg=
+github.com/go-acme/lego/v4 v4.16.0 h1:dxLGC3B/xxfkDhT1YkNmgNtbevq+vQ6aqK6c5Fh+WxM=
+github.com/go-acme/lego/v4 v4.16.0/go.mod h1:AVvwdPned/IWpD/ihHhMsKnveF7HHYAz/CmtXi7OZoE=
 github.com/go-chi/chi/v5 v5.0.0/go.mod h1:BBug9lr0cqtdAhsu6R4AAdvufI0/XBzAQSsUqJpoZOs=
 github.com/go-cmd/cmd v1.0.5/go.mod h1:y8q8qlK5wQibcw63djSl/ntiHUHXHGdCkPk0j4QeW4s=
 github.com/go-errors/errors v1.0.1 h1:LUHzmkK3GUKUrL/1gfBUxAHzcev3apQlezX/+O7ma6w=
@@ -233,6 +235,8 @@ github.com/go-jose/go-jose/v3 v3.0.0 h1:s6rrhirfEP/CGIoc6p+PZAeogN2SxKav6Wp7+dyM
 github.com/go-jose/go-jose/v3 v3.0.0/go.mod h1:RNkWWRld676jZEYoV3+XK8L2ZnNSvIsxFMht0mSX+u8=
 github.com/go-jose/go-jose/v3 v3.0.1 h1:pWmKFVtt+Jl0vBZTIpz/eAKwsm6LkIxDVVbFHKkchhA=
 github.com/go-jose/go-jose/v3 v3.0.1/go.mod h1:RNkWWRld676jZEYoV3+XK8L2ZnNSvIsxFMht0mSX+u8=
+github.com/go-jose/go-jose/v4 v4.0.1 h1:QVEPDE3OluqXBQZDcnNvQrInro2h0e4eqNbnZSWqS6U=
+github.com/go-jose/go-jose/v4 v4.0.1/go.mod h1:WVf9LFMHh/QVrmqrOfqun0C45tMe3RoiKJMPvgWwLfY=
 github.com/go-kit/kit v0.8.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2as=
 github.com/go-logfmt/logfmt v0.3.0/go.mod h1:Qt1PoO58o5twSAckw1HlFXLmHsOX5/0LbT9GBnD5lWE=
 github.com/go-logfmt/logfmt v0.4.0/go.mod h1:3RMwSq7FuexP4Kalkev3ejPJsZTpXXBr9+V4qmtdjCk=
@@ -554,6 +558,8 @@ github.com/nrdcg/goinwx v0.8.2 h1:RmjiHlEA+lzi3toXyPSaE6hWnBQ0+G+1u7w8C6Fpp4g=
 github.com/nrdcg/goinwx v0.8.2/go.mod h1:mnMSTi7CXBu2io4DzdOBoGFA1XclD0sEPWJaDhNgkA4=
 github.com/nrdcg/goinwx v0.10.0 h1:6W630bjDxQD6OuXKqrFRYVpTt0G/9GXXm3CeOrN0zJM=
 github.com/nrdcg/goinwx v0.10.0/go.mod h1:mnMSTi7CXBu2io4DzdOBoGFA1XclD0sEPWJaDhNgkA4=
+github.com/nrdcg/mailinabox v0.2.0 h1:IKq8mfKiVwNW2hQii/ng1dJ4yYMMv3HAP3fMFIq2CFk=
+github.com/nrdcg/mailinabox v0.2.0/go.mod h1:0yxqeYOiGyxAu7Sb94eMxHPIOsPYXAjTeA9ZhePhGnc=
 github.com/nrdcg/namesilo v0.2.1 h1:kLjCjsufdW/IlC+iSfAqj0iQGgKjlbUUeDJio5Y6eMg=
 github.com/nrdcg/namesilo v0.2.1/go.mod h1:lwMvfQTyYq+BbjJd30ylEG4GPSS6PII0Tia4rRpRiyw=
 github.com/nrdcg/nodion v0.1.0 h1:zLKaqTn2X0aDuBHHfyA1zFgeZfiCpmu/O9DM73okavw=
