@@ -14,7 +14,7 @@ WORKDIR /build
 COPY . .
 RUN go build -ldflags="-s -w" -o lego-auto /build
 
-FROM gcr.io/distroless/static:latest@sha256:072d78bc452a2998929a9579464e55067db4bf6d2c5f9cde582e33c10a415bd1
+FROM gcr.io/distroless/static:latest@sha256:7e5c6a2a4ae854242874d36171b31d26e0539c98fc6080f942f16b03e82851ab
 COPY --from=build /build/lego-auto /app/lego-auto
 COPY --from=build /sbin/tini-static /sbin/tini
 ENTRYPOINT [ "/sbin/tini", "--", "/app/lego-auto" ]
