@@ -226,6 +226,8 @@ github.com/go-acme/lego/v4 v4.15.0 h1:A7MHEU3b+TDFqhC/HmzMJnzPbyeaYvMZQBbqgvbThh
 github.com/go-acme/lego/v4 v4.15.0/go.mod h1:eeGhjW4zWT7Ccqa3sY7ayEqFLCAICx+mXgkMHKIkLxg=
 github.com/go-acme/lego/v4 v4.16.0 h1:dxLGC3B/xxfkDhT1YkNmgNtbevq+vQ6aqK6c5Fh+WxM=
 github.com/go-acme/lego/v4 v4.16.0/go.mod h1:AVvwdPned/IWpD/ihHhMsKnveF7HHYAz/CmtXi7OZoE=
+github.com/go-acme/lego/v4 v4.16.1 h1:JxZ93s4KG0jL27rZ30UsIgxap6VGzKuREsSkkyzeoCQ=
+github.com/go-acme/lego/v4 v4.16.1/go.mod h1:AVvwdPned/IWpD/ihHhMsKnveF7HHYAz/CmtXi7OZoE=
 github.com/go-chi/chi/v5 v5.0.0/go.mod h1:BBug9lr0cqtdAhsu6R4AAdvufI0/XBzAQSsUqJpoZOs=
 github.com/go-cmd/cmd v1.0.5/go.mod h1:y8q8qlK5wQibcw63djSl/ntiHUHXHGdCkPk0j4QeW4s=
 github.com/go-errors/errors v1.0.1 h1:LUHzmkK3GUKUrL/1gfBUxAHzcev3apQlezX/+O7ma6w=
