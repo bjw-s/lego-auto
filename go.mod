@@ -2,7 +2,7 @@ module github.com/bjw-s/lego-auto
 
 go 1.21
 
-toolchain go1.22.2
+toolchain go1.22.3
 
 require (
 	github.com/go-acme/lego/v4 v4.16.1
