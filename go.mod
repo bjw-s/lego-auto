@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.22.3
 
 require (
-	github.com/go-acme/lego/v4 v4.17.1
+	github.com/go-acme/lego/v4 v4.17.2
 	github.com/gookit/validate v1.5.2
 	github.com/knadh/koanf/parsers/yaml v0.1.0
 	github.com/knadh/koanf/providers/confmap v0.1.0
