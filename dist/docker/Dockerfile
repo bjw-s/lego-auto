@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.23-alpine@sha256:44a2d64f00857d544048dd31d8e1fbd885bb90306819f4313d7bc85b87ca04b0 as build
+FROM docker.io/library/golang:1.23-alpine@sha256:d0b31558e6b3e4cc59f6011d79905835108c919143ebecc58f35965bf79948f4 as build
 ARG TARGETOS
 ARG TARGETARCH
 ARG TARGETVARIANT=""
